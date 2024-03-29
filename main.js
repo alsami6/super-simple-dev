@@ -38,3 +38,8 @@
 // for (let index = 0; index < fruits.length; index++) {
 //     console.log(fruits[index]);    
 // }
+
+const months = ["Jan","feb", "March", "April","May", "June", "July"]
+
+months.push("August");
+console.log(months);
