@@ -39,7 +39,29 @@
 //     console.log(fruits[index]);    
 // }
 
-const months = ["Jan","feb", "March", "April","May", "June", "July"]
+// ? splice 
+const fruits = ["Banana", "Orange", "Apple", "Mango", "Pineapple"]
 
-months.push("August");
+fruits.splice(2 , 2 ,"lemon","Kiwi")
+// console.log(fruits);
+
+// ? concat
+const myGirls = ["selina", "bushra", "apple"]
+const myBoys = ["sami", "apple"]
+
+const myChildren = myGirls.concat(myBoys);
+// console.log(myChildren);
+
+// slice
+    let cut = fruits.slice(1, 3);
+    // console.log(cut)
+
+
+const months = ["Jan", "march", "April", "June", "July"];
+months.splice(months.length, 0,"dec");
+// months.splice(1,1,"March");
+// another method 
+let indexToUpDate = months.indexOf("march");
+months.splice(indexToUpDate,1,"March");
+
 console.log(months);
