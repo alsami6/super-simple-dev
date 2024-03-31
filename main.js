@@ -57,14 +57,40 @@
 //     // console.log(cut)
 
 
-const months = ["Jan", "march", "April", "June", "July"];
-months.splice(months.length, 0,"dec");
-// months.splice(1,1,"March");
-// another method 
-let indexToUpDate = months.indexOf("march");
-months.splice(indexToUpDate,1,"March");
+// const months = ["Jan", "march", "April", "June", "July"];
+// months.splice(months.length, 0,"dec");
+// // months.splice(1,1,"March");
+// // another method 
+// let indexToUpDate = months.indexOf("march");
+// months.splice(indexToUpDate,1,"March");
 
-let indexToDelete = months.indexOf("June")
-months.splice(indexToDelete, 0, )
+// let indexToDelete = months.indexOf("June")
+// months.splice(indexToDelete, 1)
 
-console.log(months);
+// console.log(months);
+
+
+// const numbers = [1, 2, 3, 4, 5, 4, 6, 7, 8, 6, 9]
+// const result = numbers
+
+// ? Object
+
+const mySym = Symbol("key1")
+const JsUser = {
+    name: "Sami",
+    "full name": "Mohammad Sami",
+    [mySym]: "myKey1",
+    age: 18,
+    location: "Dhaka",
+    email: "alsami1209@gmail.com",
+    isLoggedIn: false,
+    lastLoggedInDays: ["Monday", "Sunday"]
+};
+
+// console.log(JsUser.location);
+
+
+JsUser.location = "Kolkata";
+console.log(JsUser["location"]);
+
+
