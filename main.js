@@ -75,22 +75,21 @@
 
 // ? Object
 
-const mySym = Symbol("key1")
-const JsUser = {
-    name: "Sami",
-    "full name": "Mohammad Sami",
-    [mySym]: "myKey1",
-    age: 18,
-    location: "Dhaka",
-    email: "alsami1209@gmail.com",
-    isLoggedIn: false,
-    lastLoggedInDays: ["Monday", "Sunday"]
-};
+// const mySym = Symbol("key1")
+// const JsUser = {
+//     name: "Sami",
+//     "full name": "Mohammad Sami",
+//     [mySym]: "myKey1",
+//     age: 18,
+//     location: "Dhaka",
+//     email: "alsami1209@gmail.com",
+//     isLoggedIn: false,
+//     lastLoggedInDays: ["Monday", "Sunday"]
+// };
 
-// console.log(JsUser.location);
+// // console.log(JsUser.location);
 
 
-JsUser.location = "Kolkata";
-console.log(JsUser["location"]);
-
+// JsUser.location = "Kolkata";
+// console.log(JsUser["location"]);
 
